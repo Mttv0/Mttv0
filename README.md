@@ -4,7 +4,7 @@
 
 I take a business problem, map the workflow with the people who own it, build or scope the AI solution, and stay until the team actually uses it. Before moving into AI, I spent more than six years in international customer operations (SumUp, ja-dialog), which is where I learned how workflows break and why new tools get adopted or ignored.
 
-🌍 Italian · German · English · French  ·  📫 [LinkedIn](https://www.linkedin.com/in/matt-ver/) · matteovercelli@proton.me
+🌍 Italian · German · English · French  ·  📫 [LinkedIn](https://www.linkedin.com/in/matt-ver/) · [matteovercelli@proton.me](mailto:matteovercelli@proton.me)
 
 ---
 
@@ -18,7 +18,7 @@ I take a business problem, map the workflow with the people who own it, build or
 - Built a structured FAQ knowledge base, a Google Forms intake that routes unanswered questions to the right person, and a Claude prompt framework for drafting replies
 - Wrote a usage guide and onboarded non-technical staff, with a documented handover
 
-**Outcome:** a framework the team owns and extends without me, built in a six-week part-time internship.
+**Outcome:** a knowledge base of 11 live FAQ entries plus 7 drafted from the team's SOPs, a keyword-based FAQ matcher prototype, an unanswered-questions log, and a documented update process, so the team can own and extend it without me (six-week part-time internship).
 
 **Skills:** discovery · process mapping · stakeholder alignment · rollout & training
 
@@ -56,6 +56,8 @@ New feedback in a Google Sheet triggers the workflow → Claude classifies each 
 - Defined **seven qualifying KPIs** (portfolio size, Berlin focus, rental vs. condo mix, ownership, digital maturity, association membership, reachable decision-maker) and scored every company
 - Grouped them into tiers and recommended a **tiered sales approach**: personal outreach for the top accounts, a lighter touch for mid-sized firms, automation for the long tail
 - Checked decision-makers against company imprints, and designed outreach to respect German rules on unsolicited email
+
+**Deliverables:** scored and tiered lead sheet, contact tab for the top 26 accounts, approach document and two summary slides.
 
 **What I'd do differently:** turn it into a rerunnable pipeline: crawl company sites at scale, let an LLM agent extract the KPIs with a source quote for every value, and measure accuracy on a random sample before trusting the scores.
 
