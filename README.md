@@ -48,6 +48,19 @@ New feedback in a Google Sheet triggers the workflow → Claude classifies each 
 
 **Skills:** low-code automation · LLM classification · workflow design
 
+### 4 · Lead qualification for a B2B sales team (take-home case)
+**Task:** identify and qualify Berlin property-management companies as potential customers for a metering-services provider, in four days.
+
+**What I did:**
+- Combined six public sources (industry association, business directories) into **844 deduplicated companies**, plus a separate list of the 31 largest housing co-ops
+- Defined **seven qualifying KPIs** (portfolio size, Berlin focus, rental vs. condo mix, ownership, digital maturity, association membership, reachable decision-maker) and scored every company
+- Grouped them into tiers and recommended a **tiered sales approach**: personal outreach for the top accounts, a lighter touch for mid-sized firms, automation for the long tail
+- Checked decision-makers against company imprints, and designed outreach to respect German rules on unsolicited email
+
+**What I'd do differently:** turn it into a rerunnable pipeline: crawl company sites at scale, let an LLM agent extract the KPIs with a source quote for every value, and measure accuracy on a random sample before trusting the scores.
+
+**Skills:** discovery · KPI design · data validation · go-to-market thinking
+
 ---
 
 ## Toolbox
