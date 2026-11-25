@@ -29,7 +29,6 @@ I take a business problem, map the workflow with the people who own it, build or
 
 A four-person team built an assistant that answers homeowners' building-law questions with cited sources, comparing classic RAG with a knowledge-graph approach (GraphRAG).
 
-
 **My part:**
 - **Project lead (rotating PM):** stand-ups, prioritisation, roadmap versions, meeting minutes
 - **Evaluation design:** wrote the benchmark methodology: 20 legal queries weighted by type and difficulty, scored for retrieval, reasoning and unsupported content
@@ -43,8 +42,9 @@ A four-person team built an assistant that answers homeowners' building-law ques
 ---
 
 ### 3 · Feedback triage workflow in n8n (own project)
-New entries in a Google Sheet trigger the workflow → each entry is classified by topic and urgency through the Claude API with its own system prompt → rule-based routing sends urgent items straight to a person and batches the rest.
+[→ Repository](https://github.com/Mttv0/n8n-feedback-triage)
 
+New feedback in a Google Sheet triggers the workflow → Claude classifies each entry by category and urgency and writes a one-line summary as JSON → a code step parses it safely → high-urgency items go to an "Urgent" tab, everything else to an "All feedback" tab.
 
 **Skills:** low-code automation · LLM classification · workflow design
 
