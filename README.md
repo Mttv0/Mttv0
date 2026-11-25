@@ -1,16 +1,58 @@
-## Hi there 👋
+# Hi, I'm Matteo 👋
 
-<!--
-**Mttv0/Mttv0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**AI Enablement & Project Management · Berlin**
 
-Here are some ideas to get you started:
+I take a business problem, map the workflow with the people who own it, build or scope the AI solution, and stay until the team actually uses it. Before moving into AI, I spent more than six years in international customer operations (SumUp, ja-dialog), which is where I learned how workflows break and why new tools get adopted or ignored.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🌍 Italian · German · English · French  ·  📫 [LinkedIn](https://www.linkedin.com/in/matt-ver/) · matteovercelli@proton.me
+
+---
+
+## Selected work
+
+### 1 · AI support automation for a community organisation — We Are Village
+**Problem:** The team answered the same member questions (login, app access, membership, event pricing) again and again over email and WhatsApp.
+
+**What I did:**
+- Ran discovery with the product manager, mapped the recurring support workflow, and agreed scope and approval with management
+- Built a structured FAQ knowledge base, a Google Forms intake that routes unanswered questions to the right person, and a Claude prompt framework for drafting replies
+- Wrote a usage guide and onboarded non-technical staff, with a documented handover
+
+**Outcome:** a framework the team owns and extends without me, built in a six-week part-time internship.
+
+**Skills:** discovery · process mapping · stakeholder alignment · rollout & training
+
+---
+
+### 2 · PropLaw — AI assistant for German building law (team capstone)
+[→ Repository](https://github.com/knowledgegraphers/proplaw)
+
+A four-person team built an assistant that answers homeowners' building-law questions with cited sources, comparing classic RAG with a knowledge-graph approach (GraphRAG).
+
+
+**My part:**
+- **Project lead (rotating PM):** stand-ups, prioritisation, roadmap versions, meeting minutes
+- **Evaluation design:** wrote the benchmark methodology: 20 legal queries weighted by type and difficulty, scored for retrieval, reasoning and unsupported content
+- **Knowledge graph data:** extended the graph from one federal state to all 16 Landesbauordnungen and added a quality audit
+- **Testing & quality:** synthetic user-test runner, CI checks and pre-commit setup
+
+**Outcome:** retrieval precision improved from 2.55 to 3.60 out of 6 (+40%) on the benchmark; live prototype for Brandenburg.
+
+**Skills:** evaluation · RAG / knowledge graphs · agile delivery · Python
+
+---
+
+### 3 · Feedback triage workflow in n8n (own project)
+New entries in a Google Sheet trigger the workflow → each entry is classified by topic and urgency through the Claude API with its own system prompt → rule-based routing sends urgent items straight to a person and batches the rest.
+
+
+**Skills:** low-code automation · LLM classification · workflow design
+
+---
+
+## Toolbox
+**Delivery:** discovery, process mapping, success metrics, agile & hybrid project management, documentation
+
+**AI & automation:** LLMs, prompt & context design, RAG / GraphRAG, evaluation, n8n, Claude API, connectors / MCP
+
+**Technical basics:** Python, SQL, REST APIs, Git/GitHub
